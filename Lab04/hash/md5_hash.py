@@ -45,4 +45,4 @@ def md5(message):
     return '{:08x}{:08x}{:08x}{:08x}'.format(a, b, c, d)
 input_string = input ("Nhập chuỗi cần băm: ")
 md5_hash = md5(input_string.encode('utf-8'))
-print("Ma băm MD5 của chuỗi '{}' la: {}".format(input_string, md5_hash) )
+print("Mã băm MD5 của chuỗi '{}' la: {}".format(input_string, md5_hash) )

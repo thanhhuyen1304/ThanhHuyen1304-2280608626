@@ -7,4 +7,4 @@ def calculate_sha256_hash(data):
 
 data_to_hash = input ("Nhập dữ liệu để hash bằng SHA-256: ")
 hash_value = calculate_sha256_hash(data_to_hash)
-print("Gia tri hash SHA-256:", hash_value)
+print("Giá trị hash SHA-256:", hash_value)
